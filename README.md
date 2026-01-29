@@ -32,7 +32,6 @@ The model uses a **Recurrent Neural Network (RNN)** implemented in Keras:
 
 ## 🏃 How to Run
 
-### Prerequisites
 It is highly recommended to use a **Python Virtual Environment** to manage dependencies.
 
 1. **Create and activate a virtual environment**:
@@ -47,6 +46,10 @@ It is highly recommended to use a **Python Virtual Environment** to manage depen
    .\venv\Scripts\activate
    ```
 2. **Install the required Python packages and Jupyter environment**:
-    ```bash
-    pip install datasets mwparserfromhell seaborn scikit-learn tensorflow keras jupyterlab
-    ```
+   ```bash
+   pip install datasets mwparserfromhell seaborn scikit-learn tensorflow keras jupyterlab
+   ```
+3. **Run Jupyter notebook
+   ```bash
+   jupyter notebook
+   ```
