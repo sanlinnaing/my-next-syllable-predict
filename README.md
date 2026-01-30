@@ -2,6 +2,8 @@
 
 This project implements a deep learning approach to **Next Syllable Prediction** for the Myanmar language. Due to the unique script characteristics of Myanmar, this project utilizes a linguistically aware syllable-breaking strategy.
 
+Demo - https://sanlinnaing.github.io/my-next-syllable-predict/
+
 ## 🛠 Technical Workflow
 
 ### Phase 1: Linguistic Analysis and Syllable Extraction
