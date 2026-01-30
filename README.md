@@ -49,7 +49,16 @@ It is highly recommended to use a **Python Virtual Environment** to manage depen
    ```bash
    pip install datasets mwparserfromhell seaborn scikit-learn tensorflow keras jupyterlab
    ```
-3. **Run Jupyter notebook
+3. **Run Jupyter notebook**
    ```bash
    jupyter notebook
    ```
+   
+## License
+
+This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgement
+
+it is the work working together with Gemini Code Assist.
+   

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Syllable Prediction</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="demo/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Next Syllable Prediction</h1>
+        <div class="intro">
+            <p>This demo showcases a machine learning model that predicts the next syllable as you type. It's designed to assist with writing in languages where syllable structure is important.</p>
+        </div>
+        <div class="instructions">
+            <h2>How to Use</h2>
+            <p>Simply start typing in the text box below. The model will provide a "ghost" suggestion for the next syllable directly in the text box, and three alternative suggestions will appear below. You can click on any of the suggestions to append it to your text.</p>
+        </div>
+        <div class="editor">
+            <textarea id="text-input" rows="4"></textarea>
+            <div id="ghost-text"></div>
+        </div>
+        <div id="suggestions"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.13.0/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-tflite@0.0.1-alpha.9/dist/tf-tflite.min.js"></script>
+    <script src="demo/script.js"></script>
+</body>
+</html>
